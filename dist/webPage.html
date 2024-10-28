@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web page in Tailwindcss</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-slate-950 m-0">
+
+    <!-- navbar starts here -->
+    <nav class="w-full h-14 p-0 m-0 bg-indigo-200 flex justify-between px-4 md:px-4 items-center">
+        <div class="text-2xl text-indigo-950 font-bold">
+            Tailwindcss
+        </div>
+        <ul class="md:flex hidden font-semibold">
+            <li class="mx-[10px] cursor-pointer list-none">Home</li>
+            <li class="mx-[10px] cursor-pointer list-none">About Us</li>
+            <li class="mx-[10px] cursor-pointer list-none">Contact Us</li>
+        </ul>
+        <div class="hidden md:block px-2 py-2 bg-indigo-700 rounded-xl text-white mr-4">login/signup</div>
+        <div class="md:hidden">
+            <a class="text-4xl text-indigo-950 mr-6" href="#">&#8801;</a>
+        </div>
+    </nav>
+
+    <header class="w-full h-auto ">
+        <img class="w-full hidden md:block" src="https://images.pexels.com/photos/2325447/pexels-photo-2325447.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        <img class="w-full md:hidden" src="https://images.pexels.com/photos/1107717/pexels-photo-1107717.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+    </header>
+    <!-- header ends here -->
+
+
+    <!-- our student -->
+     <div class="h-auto w-100 flex flex-col flex-wrap items-center text-center p-10"></div>
+     <div class="w-full h-auto flex flex-col flex-wrap items-center">
+        <p class="text-indigo-300 text-3xl md:text-4xl text-center">Pure hardwork no shortcuts</p>
+        <div class="w-36 h-1 border-b-4 border-indigo-400 mt-2 md:mt-4 mb-12 text-white">
+        </div>
+    </div>
+</body>
+</html>
